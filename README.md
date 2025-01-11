@@ -64,4 +64,3 @@ The system uses three main characteristics for voice matching:
 - `voice_auth.py`: Main authentication system
 - `record_reference.py`: Utility to record voice reference
 - `requirements.txt`: Required Python packages
-- `voice_lock.bat`: Windows batch file to run the system 
