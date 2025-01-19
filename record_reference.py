@@ -3,7 +3,7 @@ import soundfile as sf
 import time
 
 def record_reference():
-    duration = 10  # seconds
+    duration = 20  # seconds
     sample_rate = 16000
     
     print("Get ready to record your reference voice...")
@@ -13,7 +13,7 @@ def record_reference():
         print(f"{i}...")
         time.sleep(1)
     
-    print("\nRecording... Please speak for 10 seconds")
+    print("\nRecording... Please speak for 20 seconds")
     recording = sd.rec(int(duration * sample_rate),
                       samplerate=sample_rate,
                       channels=1)
