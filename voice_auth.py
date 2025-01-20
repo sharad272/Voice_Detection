@@ -15,7 +15,7 @@ class VoiceAuthenticator:
         self.asr_pipeline = pipeline("automatic-speech-recognition", 
                                    model="facebook/wav2vec2-base-960h")
         self.sample_rate = 16000
-        self.duration = 10  # Recording duration in seconds
+        self.duration = 5  # Recording duration in seconds
         self.engine = pyttsx3.init()
         # Load reference audio once during initialization
         self.reference_audio = self.load_reference_audio()
